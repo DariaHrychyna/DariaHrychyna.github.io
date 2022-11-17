@@ -1,5 +1,19 @@
-body {
-  background-color: rgba(204, 163, 27, 0.479);
-  }
+body {background-color: rgba(204, 163, 27, 0.479);}
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.center {
+     text-align: center;
+    }
+
+p {
+    font-size: 14px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-indent: 50px;
+    }
+        
 
