@@ -22,6 +22,24 @@
              text-indent: 50px;
              }
                  
+
+             {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
         </style>
         
         
@@ -95,10 +113,19 @@
         <p>• У кота приблизно 20 155 волосин на квадратний сантиметр.</p>
 
         <p>
-            <center>
-                <img src="catscouple1.jpg" alt="catscouple1" style="float:right;"> <img src="catscouple3.jpg" alt="catscouple3" style="float:center;"><img src="catscouple2.jpg" alt="catscouple2" style="float:left;">
-            </center>
-       </p>
+            
+            <div class="row">
+                <div class="column">
+                  <img src="catscouple1.jpg" alt="catscouple1" style="width:20%">
+                </div>
+                <div class="column">
+                  <img src="catscouple3.jpg" alt="catscouple3" style="width:20%">
+                </div>
+                <div class="column">
+                  <img src="catscouple2.jpg" alt="catscouple2" style="width:20%">
+                </div>
+              </div>
+            </p>
 
         </body>
     
